@@ -1,0 +1,67 @@
+html
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    margin: 0;
+}
+
+section
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header
+{
+    background-color: darkcyan;
+    height: 100px;
+}
+
+h1
+{
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 10px;
+    line-height: 100px;
+}
+
+article
+{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+article:nth-of-type(3)
+{
+    flex: 2;
+}
+
+.panel
+{
+    background: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-flow:row;
+    flex-direction: row;
+    justify-content: last baseline;
+    width: 100%;
+
+}
+
+.buttonWrapper{
+    display: flex;
+}
+
+.buttonWrapper:last-child
+{   display: block;
+    position: relative;
+    margin-left: 10px;
+}
